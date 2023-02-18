@@ -11,7 +11,7 @@ export default [
 		imgUrl:
 			'https://user-images.githubusercontent.com/110077044/219799030-7825117d-1bdb-4d1c-a3a5-62fc8b8de91a.jpg',
 		tech: ['React JS', 'Tailwind CSS'],
-		workUrl: 'https://github.com/ShaifArfan/shaif-s-cuisine',
+		workUrl: 'https://github.com/e-mergen-c/portfolio',
 	},
 	{
 		title: "LinkedIn auto apply",
