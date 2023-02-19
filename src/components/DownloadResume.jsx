@@ -8,7 +8,7 @@ function DownloadResume() {
         link.setAttribute('download', 'Mergen_Ganbaatar_Resume.pdf');
 		document.body.appendChild(link);
 		link.click();
-		document.body.removeChild(link);
+		link.remove();
 	}
 
     return (
