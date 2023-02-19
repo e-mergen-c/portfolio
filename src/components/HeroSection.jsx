@@ -1,5 +1,5 @@
 import React from 'react';
-import DownloadResume from './DownloadResume';
+import CV from '../assets/mergen-resume-2023.pdf';
 
 function HeroSection() {
 	return (
@@ -11,7 +11,13 @@ function HeroSection() {
 				<p className="text-md md:text-xl max-w-md mb-8 text-gray-600 dark:text-gray-300">
 					Computer Science student at St Cloud State University{' '}
 				</p>
-				<DownloadResume />
+				<a
+					download="Mergen_Ganbaatar_Resume.pdf"
+					href={CV}
+					className="inline-block mt-8 px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md "
+				>
+					Download CV
+				</a>
 			</div>
 		</div>
 	);
