@@ -24,7 +24,7 @@ function About() {
 
 			<img
 				src={myImg}
-				alt="Mergen"
+				alt="Photo"
 				className="w-full md:w-6/12 rounded-lg object-cover"
 			/>
 		</div>
