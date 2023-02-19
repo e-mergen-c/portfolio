@@ -1,12 +1,11 @@
-import React from 'react'
-import resume from '../images/mergen-resume-2023.pdf';
+import React from 'react';
 
 function DownloadResume() {
 
     const handleDownload = () => {
 		const link = document.createElement('a');
-		link.href = {resume};
-        link.download = 'Mergen_Ganbaatar_Resume.pdf';
+		link.href = 'mergen-resume-2023.pdf';
+        link.setAttribute('download', 'Mergen_Ganbaatar_Resume.pdf');
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
