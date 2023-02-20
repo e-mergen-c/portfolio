@@ -1,5 +1,5 @@
 ## React-Tailwind Portfolio Website
-https://user-images.githubusercontent.com/110077044/219799030-7825117d-1bdb-4d1c-a3a5-62fc8b8de91a.jpg
+![Preview](https://user-images.githubusercontent.com/110077044/219799030-7825117d-1bdb-4d1c-a3a5-62fc8b8de91a.jpg)
 
 ### Live Preview
 You can access the live preview of this website at [https://mergeng.netlify.app/.](https://mergeng.netlify.app/)
